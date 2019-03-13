@@ -1,0 +1,77 @@
+SALIOU SECK@BORUTO MINGW64 /d/wamp64/www/Workspace-php-classe/devoir
+$ git clone https://github.com/saliouseck2009/Devoir.git
+Cloning into 'Devoir'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+SALIOU SECK@BORUTO MINGW64 /d/wamp64/www/Workspace-php-classe/devoir
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+SALIOU SECK@BORUTO MINGW64 /d/wamp64/www/Workspace-php-classe/devoir
+$ cd devoir
+
+SALIOU SECK@BORUTO MINGW64 /d/wamp64/www/Workspace-php-classe/devoir/devoir (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        down.css
+        newG.png
+        tab_multi1.php
+        tn_newG.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+SALIOU SECK@BORUTO MINGW64 /d/wamp64/www/Workspace-php-classe/devoir/devoir (master)
+$ git add .
+
+SALIOU SECK@BORUTO MINGW64 /d/wamp64/www/Workspace-php-classe/devoir/devoir (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   down.css
+        new file:   newG.png
+        new file:   tab_multi1.php
+        new file:   tn_newG.png
+
+
+SALIOU SECK@BORUTO MINGW64 /d/wamp64/www/Workspace-php-classe/devoir/devoir (master)
+$ git commit -m " ajout des fichier de mon tableau"
+[master ae0d007]  ajout des fichier de mon tableau
+ 4 files changed, 135 insertions(+)
+ create mode 100644 down.css
+ create mode 100644 newG.png
+ create mode 100644 tab_multi1.php
+ create mode 100644 tn_newG.png
+
+SALIOU SECK@BORUTO MINGW64 /d/wamp64/www/Workspace-php-classe/devoir/devoir (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+SALIOU SECK@BORUTO MINGW64 /d/wamp64/www/Workspace-php-classe/devoir/devoir (master)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 2.37 MiB | 166.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/saliouseck2009/Devoir.git
+   2e9854f..ae0d007  master -> master
+
+SALIOU SECK@BORUTO MINGW64 /d/wamp64/www/Workspace-php-classe/devoir/devoir (master)
+$
